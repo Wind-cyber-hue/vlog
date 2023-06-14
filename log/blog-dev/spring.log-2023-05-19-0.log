@@ -1,0 +1,89 @@
+2023-05-19 14:36:56.095  INFO 47721 --- [restartedMain] com.rawchen.BlogApiApplication           : Starting BlogApiApplication using Java 1.8.0_362 on cms-MacBook-Pro.local with PID 47721 (/Users/cm/Blog/blog-api/target/classes started by cm in /Users/cm/Blog)
+2023-05-19 14:36:56.096 DEBUG 47721 --- [restartedMain] com.rawchen.BlogApiApplication           : Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-05-19 14:36:56.096  INFO 47721 --- [restartedMain] com.rawchen.BlogApiApplication           : The following 1 profile is active: "dev"
+2023-05-19 14:36:56.126  INFO 47721 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-19 14:36:56.126  INFO 47721 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-19 14:36:56.706  INFO 47721 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-19 14:36:56.708  INFO 47721 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-05-19 14:36:56.735  INFO 47721 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2023-05-19 14:36:57.428  INFO 47721 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-05-19 14:36:57.435  INFO 47721 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-19 14:36:57.435  INFO 47721 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-19 14:36:57.485  INFO 47721 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-19 14:36:57.486  INFO 47721 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1359 ms
+2023-05-19 14:36:58.366  INFO 47721 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  483 msec using expression: classpath*:UserAgents/**/*.yaml
+2023-05-19 14:36:58.366  INFO 47721 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-05-19 14:36:58.366  INFO 47721 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
+2023-05-19 14:36:58.367  INFO 47721 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
+2023-05-19 14:36:58.367  INFO 47721 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
+2023-05-19 14:36:58.367  INFO 47721 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
+2023-05-19 14:36:58.367  INFO 47721 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
+2023-05-19 14:36:58.367  INFO 47721 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
+2023-05-19 14:36:58.367  INFO 47721 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-05-19 14:36:58.369  INFO 47721 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
+2023-05-19 14:36:59.217  INFO 47721 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2023-05-19 14:36:59.225  INFO 47721 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-05-19 14:36:59.225  INFO 47721 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2023-05-19 14:36:59.226  INFO 47721 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2023-05-19 14:36:59.226  INFO 47721 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-05-19 14:36:59.226  INFO 47721 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-05-19 14:36:59.226  INFO 47721 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2023-05-19 14:36:59.227  INFO 47721 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@36ff49a1
+2023-05-19 14:36:59.251  INFO 47721 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-19 14:36:59.382  INFO 47721 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-19 14:36:59.388 DEBUG 47721 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : ==>  Preparing: select job_id, bean_name, method_name, params, cron, status, remark, create_time from schedule_job
+2023-05-19 14:36:59.406 DEBUG 47721 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : ==> Parameters: 
+2023-05-19 14:36:59.468 DEBUG 47721 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : <==      Total: 2
+2023-05-19 14:37:00.308  INFO 47721 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5a5a70b5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@750aa092, org.springframework.security.web.context.SecurityContextPersistenceFilter@774d4b5b, org.springframework.security.web.header.HeaderWriterFilter@7f876749, org.springframework.web.filter.CorsFilter@77a30e2c, org.springframework.security.web.authentication.logout.LogoutFilter@7afc02a8, com.rawchen.config.JwtLoginFilter@63e3533, com.rawchen.config.JwtFilter@fe82299, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@270ba54e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a68df08, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2fc60dc6, org.springframework.security.web.session.SessionManagementFilter@67063b58, org.springframework.security.web.access.ExceptionTranslationFilter@4d30b241, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@15867a3a]
+2023-05-19 14:37:00.366  WARN 47721 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-05-19 14:37:00.394  INFO 47721 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-05-19 14:37:00.395  INFO 47721 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-05-19 14:37:00.395  INFO 47721 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-05-19 14:37:00.404  INFO 47721 --- [restartedMain] com.rawchen.BlogApiApplication           : Started BlogApiApplication in 4.643 seconds (JVM running for 10.192)
+2023-05-19 15:04:55.647  WARN 47721 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m24s502ms).
+2023-05-19 15:38:54.291  INFO 47721 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-19 15:38:54.293  INFO 47721 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-19 15:38:54.323  INFO 47721 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 30 ms
+2023-05-19 15:39:58.244 DEBUG 47721 --- [http-nio-8090-exec-8] stByLimitNumAndIsPublishedAndIsRecommend : ==>  Preparing: select id, title, password, create_time, first_picture from blog where is_published = true and is_recommend = true order by rand() limit ?
+2023-05-19 15:39:58.251 DEBUG 47721 --- [http-nio-8090-exec-8] stByLimitNumAndIsPublishedAndIsRecommend : ==> Parameters: 5(Integer)
+2023-05-19 15:39:58.310 DEBUG 47721 --- [http-nio-8090-exec-8] stByLimitNumAndIsPublishedAndIsRecommend : <==      Total: 4
+2023-05-19 15:40:03.436  INFO 47721 --- [task-1] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Initializing Analyzer data structures
+2023-05-19 15:40:05.039  INFO 47721 --- [task-1] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Built in 1601 msec : Hashmap 114881, Ranges map:2900
+2023-05-19 15:40:05.104 DEBUG 47721 --- [task-1] c.r.mapper.VisitLogMapper.saveVisitLog   : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-05-19 15:40:05.107 DEBUG 47721 --- [task-1] c.r.mapper.VisitLogMapper.saveVisitLog   : ==> Parameters: 5bd94df9-2d9d-33a6-959b-a4f2207913e2(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.108.52(String), 内网IP|内网IP(String), Unknown ??(String), Chrome 112.0.0.0(String), 249(Integer), 2023-05-19 15:40:03.387(Timestamp), Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36(String)
+2023-05-19 15:40:05.140 DEBUG 47721 --- [task-1] c.r.mapper.VisitLogMapper.saveVisitLog   : <==    Updates: 1
+2023-05-19 15:40:26.120 DEBUG 47721 --- [task-2] c.r.mapper.VisitLogMapper.saveVisitLog   : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-05-19 15:40:26.124 DEBUG 47721 --- [task-2] c.r.mapper.VisitLogMapper.saveVisitLog   : ==> Parameters: 5bd94df9-2d9d-33a6-959b-a4f2207913e2(String), /about(String), GET(String), {}(String), 访问页面(String), 关于我(String), (String), 192.168.108.52(String), 内网IP|内网IP(String), Unknown ??(String), Chrome 112.0.0.0(String), 34(Integer), 2023-05-19 15:40:26.118(Timestamp), Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36(String)
+2023-05-19 15:40:26.129 DEBUG 47721 --- [task-2] c.r.mapper.VisitLogMapper.saveVisitLog   : <==    Updates: 1
+2023-05-19 15:40:26.237 DEBUG 47721 --- [http-nio-8090-exec-3] c.r.m.A.getAboutCommentEnabled           : ==>  Preparing: select value from about where name_en = "commentEnabled"
+2023-05-19 15:40:26.238 DEBUG 47721 --- [http-nio-8090-exec-3] c.r.m.A.getAboutCommentEnabled           : ==> Parameters: 
+2023-05-19 15:40:26.247 DEBUG 47721 --- [http-nio-8090-exec-3] c.r.m.A.getAboutCommentEnabled           : <==      Total: 1
+2023-05-19 15:40:26.278 DEBUG 47721 --- [http-nio-8090-exec-3] c.r.m.C.countByPageAndIsPublished        : ==>  Preparing: select count(*) from comment where page=?
+2023-05-19 15:40:26.278 DEBUG 47721 --- [http-nio-8090-exec-3] c.r.m.C.countByPageAndIsPublished        : ==> Parameters: 1(Integer)
+2023-05-19 15:40:26.290 DEBUG 47721 --- [http-nio-8090-exec-3] c.r.m.C.countByPageAndIsPublished        : <==      Total: 1
+2023-05-19 15:40:26.334 DEBUG 47721 --- [http-nio-8090-exec-3] ommentListByPageAndParentCommentId_COUNT : ==>  Preparing: SELECT count(0) FROM comment AS c1 LEFT JOIN comment AS c2 ON c1.parent_comment_id = c2.id WHERE c1.page = ? AND c1.parent_comment_id = ? AND c1.is_published = true
+2023-05-19 15:40:26.334 DEBUG 47721 --- [http-nio-8090-exec-3] ommentListByPageAndParentCommentId_COUNT : ==> Parameters: 1(Integer), -1(Long)
+2023-05-19 15:40:26.352 DEBUG 47721 --- [http-nio-8090-exec-3] ommentListByPageAndParentCommentId_COUNT : <==      Total: 1
+2023-05-19 15:40:26.353 DEBUG 47721 --- [http-nio-8090-exec-3] tPageCommentListByPageAndParentCommentId : ==>  Preparing: select c1.id, c1.nickname, c1.content, c1.avatar, c1.create_time, c1.is_admin_comment, c1.website, c1.parent_comment_id as parent_comment_id, c2.nickname as parent_comment_nickname from comment as c1 left join comment as c2 on c1.parent_comment_id=c2.id where c1.page=? and c1.parent_comment_id=? and c1.is_published=true order by c1.create_time desc LIMIT ?
+2023-05-19 15:40:26.354 DEBUG 47721 --- [http-nio-8090-exec-3] tPageCommentListByPageAndParentCommentId : ==> Parameters: 1(Integer), -1(Long), 5(Integer)
+2023-05-19 15:40:26.357 DEBUG 47721 --- [http-nio-8090-exec-3] tPageCommentListByPageAndParentCommentId : <==      Total: 2
+2023-05-19 15:40:26.358 DEBUG 47721 --- [http-nio-8090-exec-3] tPageCommentListByPageAndParentCommentId : ==>  Preparing: select c1.id, c1.nickname, c1.content, c1.avatar, c1.create_time, c1.is_admin_comment, c1.website, c1.parent_comment_id as parent_comment_id, c2.nickname as parent_comment_nickname from comment as c1 left join comment as c2 on c1.parent_comment_id=c2.id where c1.page=? and c1.parent_comment_id=? and c1.is_published=true order by c1.create_time desc
+2023-05-19 15:40:26.358 DEBUG 47721 --- [http-nio-8090-exec-3] tPageCommentListByPageAndParentCommentId : ==> Parameters: 1(Integer), 14(Long)
+2023-05-19 15:40:26.360 DEBUG 47721 --- [http-nio-8090-exec-3] tPageCommentListByPageAndParentCommentId : <==      Total: 0
+2023-05-19 15:40:26.360 DEBUG 47721 --- [http-nio-8090-exec-3] tPageCommentListByPageAndParentCommentId : ==>  Preparing: select c1.id, c1.nickname, c1.content, c1.avatar, c1.create_time, c1.is_admin_comment, c1.website, c1.parent_comment_id as parent_comment_id, c2.nickname as parent_comment_nickname from comment as c1 left join comment as c2 on c1.parent_comment_id=c2.id where c1.page=? and c1.parent_comment_id=? and c1.is_published=true order by c1.create_time desc
+2023-05-19 15:40:26.361 DEBUG 47721 --- [http-nio-8090-exec-3] tPageCommentListByPageAndParentCommentId : ==> Parameters: 1(Integer), 13(Long)
+2023-05-19 15:40:26.365 DEBUG 47721 --- [http-nio-8090-exec-3] tPageCommentListByPageAndParentCommentId : <==      Total: 0
+2023-05-19 16:15:37.247  INFO 47721 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-19 16:15:38.414  INFO 47721 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-05-19 16:15:38.415  INFO 47721 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-05-19 16:15:38.415  INFO 47721 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-19 16:15:38.416  INFO 47721 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-05-19 16:15:38.607  INFO 47721 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-19 16:15:38.612  INFO 47721 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

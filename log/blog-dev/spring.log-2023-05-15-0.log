@@ -1,0 +1,489 @@
+2023-05-15 09:15:16.859  WARN 33879 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h28m14s257ms).
+2023-05-15 10:30:28.970  WARN 33879 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h14m42s103ms).
+2023-05-15 10:35:14.885  WARN 33879 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m14s454ms).
+2023-05-15 10:43:30.411  WARN 33879 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m45s476ms).
+2023-05-15 11:56:47.870  WARN 33879 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m42s914ms).
+2023-05-15 12:28:31.006  WARN 33879 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m13s98ms).
+2023-05-15 12:54:32.144  WARN 33879 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m31s133ms).
+2023-05-15 13:32:47.648  WARN 33879 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m15s504ms).
+2023-05-15 14:18:35.642  WARN 33879 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m17s772ms).
+2023-05-15 14:25:19.340  WARN 33879 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m13s684ms).
+2023-05-15 14:44:01.150  INFO 33879 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 180 class path changes (0 additions, 180 deletions, 0 modifications)
+2023-05-15 14:44:01.319  INFO 33879 --- [Thread-3] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-15 14:44:01.379  INFO 33879 --- [Thread-3] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-15 14:44:01.405  INFO 33879 --- [Thread-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-15 14:44:01.461  WARN 33879 --- [Thread-3] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:750)
+2023-05-15 14:44:01.462  WARN 33879 --- [Thread-3] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:750)
+2023-05-15 14:44:01.464  WARN 33879 --- [Thread-3] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:750)
+2023-05-15 14:44:01.465  WARN 33879 --- [Thread-3] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:750)
+2023-05-15 14:44:01.465  WARN 33879 --- [Thread-3] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:750)
+2023-05-15 14:44:01.466  WARN 33879 --- [Thread-3] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:750)
+2023-05-15 14:44:01.466  WARN 33879 --- [Thread-3] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:750)
+2023-05-15 14:44:01.467  WARN 33879 --- [Thread-3] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:750)
+2023-05-15 14:44:01.467  WARN 33879 --- [Thread-3] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:750)
+2023-05-15 14:44:01.467  WARN 33879 --- [Thread-3] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-11] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:750)
+2023-05-15 14:44:01.468  WARN 33879 --- [Thread-3] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-12] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2044)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:750)
+2023-05-15 14:44:01.577  INFO 33879 --- [Thread-3] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-05-15 14:44:01.578  INFO 33879 --- [Thread-3] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-05-15 14:44:01.578  INFO 33879 --- [Thread-3] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-15 14:44:01.584  INFO 33879 --- [Thread-3] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-05-15 14:44:01.870  INFO 33879 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-15 14:44:01.887  INFO 33879 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-15 14:44:09.053  INFO 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : Starting BlogApiApplication using Java 1.8.0_362 on cms-MacBook-Pro.local with PID 33879 (/Users/cm/Blog/blog-api/target/classes started by cm in /Users/cm/Blog)
+2023-05-15 14:44:09.054 DEBUG 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-05-15 14:44:09.054  INFO 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : The following 1 profile is active: "dev"
+2023-05-15 14:44:09.424  INFO 33879 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-15 14:44:09.424  INFO 33879 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-05-15 14:44:09.439  INFO 33879 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2023-05-15 14:44:09.750  INFO 33879 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-05-15 14:44:09.751  INFO 33879 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-15 14:44:09.751  INFO 33879 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-15 14:44:09.760  INFO 33879 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-15 14:44:09.760  INFO 33879 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 703 ms
+2023-05-15 14:44:10.551  INFO 33879 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  599 msec using expression: classpath*:UserAgents/**/*.yaml
+2023-05-15 14:44:10.551  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-05-15 14:44:10.551  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
+2023-05-15 14:44:10.551  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
+2023-05-15 14:44:10.551  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
+2023-05-15 14:44:10.551  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
+2023-05-15 14:44:10.551  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
+2023-05-15 14:44:10.551  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
+2023-05-15 14:44:10.551  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-05-15 14:44:10.551  INFO 33879 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
+2023-05-15 14:44:10.890  INFO 33879 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2023-05-15 14:44:10.891  INFO 33879 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-05-15 14:44:10.891  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2023-05-15 14:44:10.891  INFO 33879 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2023-05-15 14:44:10.891  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-05-15 14:44:10.891  INFO 33879 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-05-15 14:44:10.891  INFO 33879 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2023-05-15 14:44:10.891  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3dd072ab
+2023-05-15 14:44:10.919  INFO 33879 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-05-15 14:44:10.927  INFO 33879 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-05-15 14:44:10.927 DEBUG 33879 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : ==>  Preparing: select job_id, bean_name, method_name, params, cron, status, remark, create_time from schedule_job
+2023-05-15 14:44:10.928 DEBUG 33879 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : ==> Parameters: 
+2023-05-15 14:44:10.933 DEBUG 33879 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : <==      Total: 2
+2023-05-15 14:44:11.375  INFO 33879 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5d1c8c4f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@63ebc358, org.springframework.security.web.context.SecurityContextPersistenceFilter@310ebbd6, org.springframework.security.web.header.HeaderWriterFilter@3cc7f813, org.springframework.web.filter.CorsFilter@1c90a30c, org.springframework.security.web.authentication.logout.LogoutFilter@5ab18851, com.rawchen.config.JwtLoginFilter@ca47516, com.rawchen.config.JwtFilter@35e3fe39, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@48a522df, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c865c1b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8af0ade, org.springframework.security.web.session.SessionManagementFilter@5ec461da, org.springframework.security.web.access.ExceptionTranslationFilter@1d9d97c8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69ef3979]
+2023-05-15 14:44:11.401  WARN 33879 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-05-15 14:44:11.415  INFO 33879 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-05-15 14:44:11.416  INFO 33879 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-05-15 14:44:11.416  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-05-15 14:44:11.421  INFO 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : Started BlogApiApplication in 7.43 seconds (JVM running for 69079.447)
+2023-05-15 14:44:11.423  INFO 33879 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-15 14:44:12.834  INFO 33879 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 180 class path changes (180 additions, 0 deletions, 0 modifications)
+2023-05-15 14:44:12.837  INFO 33879 --- [Thread-21] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-15 14:44:12.839  INFO 33879 --- [Thread-21] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-15 14:44:12.846  INFO 33879 --- [Thread-21] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-05-15 14:44:12.846  INFO 33879 --- [Thread-21] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-05-15 14:44:12.846  INFO 33879 --- [Thread-21] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-15 14:44:12.847  INFO 33879 --- [Thread-21] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-05-15 14:44:12.954  INFO 33879 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-05-15 14:44:12.956  INFO 33879 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-05-15 14:44:13.466  INFO 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : Starting BlogApiApplication using Java 1.8.0_362 on cms-MacBook-Pro.local with PID 33879 (/Users/cm/Blog/blog-api/target/classes started by cm in /Users/cm/Blog)
+2023-05-15 14:44:13.466 DEBUG 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-05-15 14:44:13.466  INFO 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : The following 1 profile is active: "dev"
+2023-05-15 14:44:13.612  INFO 33879 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-15 14:44:13.612  INFO 33879 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-05-15 14:44:13.621  INFO 33879 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-05-15 14:44:13.732  INFO 33879 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-05-15 14:44:13.732  INFO 33879 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-15 14:44:13.733  INFO 33879 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-15 14:44:13.738  INFO 33879 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-15 14:44:13.738  INFO 33879 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 271 ms
+2023-05-15 14:44:14.250  INFO 33879 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  403 msec using expression: classpath*:UserAgents/**/*.yaml
+2023-05-15 14:44:14.250  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-05-15 14:44:14.250  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
+2023-05-15 14:44:14.251  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
+2023-05-15 14:44:14.251  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
+2023-05-15 14:44:14.251  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
+2023-05-15 14:44:14.251  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
+2023-05-15 14:44:14.251  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
+2023-05-15 14:44:14.251  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-05-15 14:44:14.251  INFO 33879 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
+2023-05-15 14:44:14.470  INFO 33879 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2023-05-15 14:44:14.471  INFO 33879 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-05-15 14:44:14.471  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2023-05-15 14:44:14.471  INFO 33879 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2023-05-15 14:44:14.471  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-05-15 14:44:14.471  INFO 33879 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-05-15 14:44:14.471  INFO 33879 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2023-05-15 14:44:14.471  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1b35b6af
+2023-05-15 14:44:14.490  INFO 33879 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-05-15 14:44:14.494  INFO 33879 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-05-15 14:44:14.494 DEBUG 33879 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : ==>  Preparing: select job_id, bean_name, method_name, params, cron, status, remark, create_time from schedule_job
+2023-05-15 14:44:14.494 DEBUG 33879 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : ==> Parameters: 
+2023-05-15 14:44:14.500 DEBUG 33879 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : <==      Total: 2
+2023-05-15 14:44:14.813  INFO 33879 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@706e70d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@261a5142, org.springframework.security.web.context.SecurityContextPersistenceFilter@362d064a, org.springframework.security.web.header.HeaderWriterFilter@efd6e8d, org.springframework.web.filter.CorsFilter@7f0d1a34, org.springframework.security.web.authentication.logout.LogoutFilter@75ccdfb0, com.rawchen.config.JwtLoginFilter@6a6f290, com.rawchen.config.JwtFilter@36a843c6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58ef443d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9292948, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42cc9410, org.springframework.security.web.session.SessionManagementFilter@4aae1bc9, org.springframework.security.web.access.ExceptionTranslationFilter@31eb5aa6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@147da5e0]
+2023-05-15 14:44:14.835  WARN 33879 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-05-15 14:44:14.847  INFO 33879 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-05-15 14:44:14.847  INFO 33879 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-05-15 14:44:14.847  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-05-15 14:44:14.850  INFO 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : Started BlogApiApplication in 1.409 seconds (JVM running for 69082.875)
+2023-05-15 14:44:14.851  INFO 33879 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-15 15:53:31.818  INFO 33879 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-15 15:53:31.828  INFO 33879 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-15 15:53:31.894  INFO 33879 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 66 ms
+2023-05-15 16:06:55.162  INFO 33879 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 180 class path changes (0 additions, 180 deletions, 0 modifications)
+2023-05-15 16:06:55.208  INFO 33879 --- [Thread-25] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-15 16:06:55.246  INFO 33879 --- [Thread-25] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-15 16:06:55.260  INFO 33879 --- [Thread-25] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-15 16:06:55.365  INFO 33879 --- [Thread-25] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-05-15 16:06:55.365  INFO 33879 --- [Thread-25] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-05-15 16:06:55.365  INFO 33879 --- [Thread-25] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-15 16:06:55.368  INFO 33879 --- [Thread-25] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-05-15 16:06:55.528  INFO 33879 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-05-15 16:06:55.537  INFO 33879 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-05-15 16:07:01.725  INFO 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : Starting BlogApiApplication using Java 1.8.0_362 on cms-MacBook-Pro.local with PID 33879 (/Users/cm/Blog/blog-api/target/classes started by cm in /Users/cm/Blog)
+2023-05-15 16:07:01.725 DEBUG 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-05-15 16:07:01.725  INFO 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : The following 1 profile is active: "dev"
+2023-05-15 16:07:02.276  INFO 33879 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-15 16:07:02.276  INFO 33879 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-05-15 16:07:02.308  INFO 33879 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 0 Redis repository interfaces.
+2023-05-15 16:07:02.585  INFO 33879 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-05-15 16:07:02.586  INFO 33879 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-15 16:07:02.586  INFO 33879 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-15 16:07:02.596  INFO 33879 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-15 16:07:02.596  INFO 33879 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 867 ms
+2023-05-15 16:07:03.172  INFO 33879 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  438 msec using expression: classpath*:UserAgents/**/*.yaml
+2023-05-15 16:07:03.172  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-05-15 16:07:03.172  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
+2023-05-15 16:07:03.172  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
+2023-05-15 16:07:03.172  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
+2023-05-15 16:07:03.172  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
+2023-05-15 16:07:03.172  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
+2023-05-15 16:07:03.172  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
+2023-05-15 16:07:03.172  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-05-15 16:07:03.172  INFO 33879 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
+2023-05-15 16:07:03.457  INFO 33879 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2023-05-15 16:07:03.458  INFO 33879 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-05-15 16:07:03.458  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2023-05-15 16:07:03.458  INFO 33879 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2023-05-15 16:07:03.458  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-05-15 16:07:03.458  INFO 33879 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-05-15 16:07:03.458  INFO 33879 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2023-05-15 16:07:03.458  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@312cd527
+2023-05-15 16:07:03.470  INFO 33879 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-05-15 16:07:03.482  INFO 33879 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-05-15 16:07:03.482 DEBUG 33879 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : ==>  Preparing: select job_id, bean_name, method_name, params, cron, status, remark, create_time from schedule_job
+2023-05-15 16:07:03.482 DEBUG 33879 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : ==> Parameters: 
+2023-05-15 16:07:03.496 DEBUG 33879 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : <==      Total: 2
+2023-05-15 16:07:03.870  INFO 33879 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7a33901a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69367308, org.springframework.security.web.context.SecurityContextPersistenceFilter@6d6592a4, org.springframework.security.web.header.HeaderWriterFilter@486bb595, org.springframework.web.filter.CorsFilter@e5721f9, org.springframework.security.web.authentication.logout.LogoutFilter@1317c46d, com.rawchen.config.JwtLoginFilter@f5c40ee, com.rawchen.config.JwtFilter@6909a25f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64540b0b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a4804de, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@33fd3245, org.springframework.security.web.session.SessionManagementFilter@7022ddc0, org.springframework.security.web.access.ExceptionTranslationFilter@53cdb626, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b1b5237]
+2023-05-15 16:07:03.917  WARN 33879 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-05-15 16:07:03.935  INFO 33879 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-05-15 16:07:03.935  INFO 33879 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-05-15 16:07:03.935  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-05-15 16:07:03.940  INFO 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : Started BlogApiApplication in 7.267 seconds (JVM running for 74051.98)
+2023-05-15 16:07:03.942  INFO 33879 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-15 16:07:05.357  INFO 33879 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 180 class path changes (180 additions, 0 deletions, 0 modifications)
+2023-05-15 16:07:05.359  INFO 33879 --- [Thread-29] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-15 16:07:05.361  INFO 33879 --- [Thread-29] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-15 16:07:05.368  INFO 33879 --- [Thread-29] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-05-15 16:07:05.368  INFO 33879 --- [Thread-29] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-05-15 16:07:05.368  INFO 33879 --- [Thread-29] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-15 16:07:05.368  INFO 33879 --- [Thread-29] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-05-15 16:07:05.477  INFO 33879 --- [Thread-29] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-05-15 16:07:05.479  INFO 33879 --- [Thread-29] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-05-15 16:07:05.885  INFO 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : Starting BlogApiApplication using Java 1.8.0_362 on cms-MacBook-Pro.local with PID 33879 (/Users/cm/Blog/blog-api/target/classes started by cm in /Users/cm/Blog)
+2023-05-15 16:07:05.886 DEBUG 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-05-15 16:07:05.886  INFO 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : The following 1 profile is active: "dev"
+2023-05-15 16:07:06.024  INFO 33879 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-15 16:07:06.024  INFO 33879 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-05-15 16:07:06.034  INFO 33879 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-05-15 16:07:06.143  INFO 33879 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-05-15 16:07:06.143  INFO 33879 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-15 16:07:06.143  INFO 33879 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-15 16:07:06.148  INFO 33879 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-15 16:07:06.148  INFO 33879 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 261 ms
+2023-05-15 16:07:06.843  INFO 33879 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  593 msec using expression: classpath*:UserAgents/**/*.yaml
+2023-05-15 16:07:06.843  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-05-15 16:07:06.843  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
+2023-05-15 16:07:06.843  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
+2023-05-15 16:07:06.843  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
+2023-05-15 16:07:06.843  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
+2023-05-15 16:07:06.843  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
+2023-05-15 16:07:06.843  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
+2023-05-15 16:07:06.843  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-05-15 16:07:06.843  INFO 33879 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
+2023-05-15 16:07:07.139  INFO 33879 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2023-05-15 16:07:07.140  INFO 33879 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-05-15 16:07:07.140  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2023-05-15 16:07:07.140  INFO 33879 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2023-05-15 16:07:07.140  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-05-15 16:07:07.140  INFO 33879 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-05-15 16:07:07.140  INFO 33879 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2023-05-15 16:07:07.140  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@24890e12
+2023-05-15 16:07:07.155  INFO 33879 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-05-15 16:07:07.162  INFO 33879 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-05-15 16:07:07.162 DEBUG 33879 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : ==>  Preparing: select job_id, bean_name, method_name, params, cron, status, remark, create_time from schedule_job
+2023-05-15 16:07:07.162 DEBUG 33879 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : ==> Parameters: 
+2023-05-15 16:07:07.162 DEBUG 33879 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : <==      Total: 2
+2023-05-15 16:07:07.575  INFO 33879 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@48517745, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77f8b61b, org.springframework.security.web.context.SecurityContextPersistenceFilter@3366e10a, org.springframework.security.web.header.HeaderWriterFilter@2d4edbee, org.springframework.web.filter.CorsFilter@5e023f5b, org.springframework.security.web.authentication.logout.LogoutFilter@6e32bc5f, com.rawchen.config.JwtLoginFilter@41c89671, com.rawchen.config.JwtFilter@2e03a52, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40ef24d5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@14cd0b1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@301a1c7b, org.springframework.security.web.session.SessionManagementFilter@78bf4804, org.springframework.security.web.access.ExceptionTranslationFilter@14f5129e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@57a90f8d]
+2023-05-15 16:07:07.597  WARN 33879 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-05-15 16:07:07.607  INFO 33879 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-05-15 16:07:07.607  INFO 33879 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-05-15 16:07:07.608  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-05-15 16:07:07.610  INFO 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : Started BlogApiApplication in 1.746 seconds (JVM running for 74055.65)
+2023-05-15 16:07:07.611  INFO 33879 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-15 16:08:22.200  INFO 33879 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 180 class path changes (0 additions, 180 deletions, 0 modifications)
+2023-05-15 16:08:22.202  INFO 33879 --- [Thread-33] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-15 16:08:22.204  INFO 33879 --- [Thread-33] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-15 16:08:22.214  INFO 33879 --- [Thread-33] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-05-15 16:08:22.214  INFO 33879 --- [Thread-33] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-05-15 16:08:22.214  INFO 33879 --- [Thread-33] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-15 16:08:22.214  INFO 33879 --- [Thread-33] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-05-15 16:08:22.320  INFO 33879 --- [Thread-33] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-05-15 16:08:22.322  INFO 33879 --- [Thread-33] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-05-15 16:08:27.729  INFO 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : Starting BlogApiApplication using Java 1.8.0_362 on cms-MacBook-Pro.local with PID 33879 (/Users/cm/Blog/blog-api/target/classes started by cm in /Users/cm/Blog)
+2023-05-15 16:08:27.729 DEBUG 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-05-15 16:08:27.729  INFO 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : The following 1 profile is active: "dev"
+2023-05-15 16:08:27.938  INFO 33879 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-15 16:08:27.938  INFO 33879 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-05-15 16:08:27.951  INFO 33879 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2023-05-15 16:08:28.093  INFO 33879 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-05-15 16:08:28.094  INFO 33879 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-15 16:08:28.094  INFO 33879 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-15 16:08:28.099  INFO 33879 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-15 16:08:28.099  INFO 33879 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 368 ms
+2023-05-15 16:08:28.606  INFO 33879 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  403 msec using expression: classpath*:UserAgents/**/*.yaml
+2023-05-15 16:08:28.606  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-05-15 16:08:28.606  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
+2023-05-15 16:08:28.606  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
+2023-05-15 16:08:28.606  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
+2023-05-15 16:08:28.606  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
+2023-05-15 16:08:28.606  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
+2023-05-15 16:08:28.606  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
+2023-05-15 16:08:28.606  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-05-15 16:08:28.606  INFO 33879 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
+2023-05-15 16:08:28.850  INFO 33879 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2023-05-15 16:08:28.851  INFO 33879 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-05-15 16:08:28.851  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2023-05-15 16:08:28.851  INFO 33879 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2023-05-15 16:08:28.851  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-05-15 16:08:28.851  INFO 33879 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-05-15 16:08:28.851  INFO 33879 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2023-05-15 16:08:28.851  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6118e45f
+2023-05-15 16:08:28.862  INFO 33879 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2023-05-15 16:08:28.869  INFO 33879 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2023-05-15 16:08:28.869 DEBUG 33879 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : ==>  Preparing: select job_id, bean_name, method_name, params, cron, status, remark, create_time from schedule_job
+2023-05-15 16:08:28.869 DEBUG 33879 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : ==> Parameters: 
+2023-05-15 16:08:28.871 DEBUG 33879 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : <==      Total: 2
+2023-05-15 16:08:29.233  INFO 33879 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@79292d59, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40a96230, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b5551e4, org.springframework.security.web.header.HeaderWriterFilter@735d140, org.springframework.web.filter.CorsFilter@5b604daf, org.springframework.security.web.authentication.logout.LogoutFilter@6815e91c, com.rawchen.config.JwtLoginFilter@5e21bc03, com.rawchen.config.JwtFilter@6e52017b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@51c26f28, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@147cf204, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65614663, org.springframework.security.web.session.SessionManagementFilter@1d1c03d7, org.springframework.security.web.access.ExceptionTranslationFilter@49602faa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1bb3cefe]
+2023-05-15 16:08:29.257  WARN 33879 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-05-15 16:08:29.269  INFO 33879 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-05-15 16:08:29.269  INFO 33879 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-05-15 16:08:29.269  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-05-15 16:08:29.272  INFO 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : Started BlogApiApplication in 6.572 seconds (JVM running for 74137.31)
+2023-05-15 16:08:29.273  INFO 33879 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-15 16:08:30.694  INFO 33879 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 180 class path changes (180 additions, 0 deletions, 0 modifications)
+2023-05-15 16:08:30.696  INFO 33879 --- [Thread-37] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-15 16:08:30.698  INFO 33879 --- [Thread-37] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-15 16:08:30.705  INFO 33879 --- [Thread-37] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-05-15 16:08:30.705  INFO 33879 --- [Thread-37] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-05-15 16:08:30.705  INFO 33879 --- [Thread-37] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-15 16:08:30.705  INFO 33879 --- [Thread-37] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-05-15 16:08:30.822  INFO 33879 --- [Thread-37] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2023-05-15 16:08:30.824  INFO 33879 --- [Thread-37] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2023-05-15 16:08:31.161  INFO 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : Starting BlogApiApplication using Java 1.8.0_362 on cms-MacBook-Pro.local with PID 33879 (/Users/cm/Blog/blog-api/target/classes started by cm in /Users/cm/Blog)
+2023-05-15 16:08:31.162 DEBUG 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-05-15 16:08:31.162  INFO 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : The following 1 profile is active: "dev"
+2023-05-15 16:08:31.320  INFO 33879 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-15 16:08:31.320  INFO 33879 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-05-15 16:08:31.331  INFO 33879 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-05-15 16:08:31.466  INFO 33879 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-05-15 16:08:31.466  INFO 33879 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-15 16:08:31.467  INFO 33879 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-15 16:08:31.472  INFO 33879 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-15 16:08:31.472  INFO 33879 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 309 ms
+2023-05-15 16:08:31.969  INFO 33879 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  395 msec using expression: classpath*:UserAgents/**/*.yaml
+2023-05-15 16:08:31.969  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-05-15 16:08:31.969  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
+2023-05-15 16:08:31.969  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
+2023-05-15 16:08:31.969  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
+2023-05-15 16:08:31.969  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
+2023-05-15 16:08:31.969  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
+2023-05-15 16:08:31.969  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
+2023-05-15 16:08:31.969  INFO 33879 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-05-15 16:08:31.969  INFO 33879 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
+2023-05-15 16:08:32.208  INFO 33879 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2023-05-15 16:08:32.209  INFO 33879 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-05-15 16:08:32.209  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2023-05-15 16:08:32.209  INFO 33879 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2023-05-15 16:08:32.209  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-05-15 16:08:32.209  INFO 33879 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-05-15 16:08:32.209  INFO 33879 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2023-05-15 16:08:32.209  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7c3def60
+2023-05-15 16:08:32.224  INFO 33879 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2023-05-15 16:08:32.229  INFO 33879 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2023-05-15 16:08:32.229 DEBUG 33879 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : ==>  Preparing: select job_id, bean_name, method_name, params, cron, status, remark, create_time from schedule_job
+2023-05-15 16:08:32.229 DEBUG 33879 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : ==> Parameters: 
+2023-05-15 16:08:32.233 DEBUG 33879 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : <==      Total: 2
+2023-05-15 16:08:32.581  INFO 33879 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5f9d24b9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4fd4d321, org.springframework.security.web.context.SecurityContextPersistenceFilter@6df947b7, org.springframework.security.web.header.HeaderWriterFilter@40b8288b, org.springframework.web.filter.CorsFilter@4c5f54c4, org.springframework.security.web.authentication.logout.LogoutFilter@27992f34, com.rawchen.config.JwtLoginFilter@665244cf, com.rawchen.config.JwtFilter@50dc0c50, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f2d4801, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e9ff2be, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39f880b1, org.springframework.security.web.session.SessionManagementFilter@a4f67df, org.springframework.security.web.access.ExceptionTranslationFilter@676c2471, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@38d25eae]
+2023-05-15 16:08:32.605  WARN 33879 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-05-15 16:08:32.617  INFO 33879 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-05-15 16:08:32.617  INFO 33879 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-05-15 16:08:32.617  INFO 33879 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-05-15 16:08:32.620  INFO 33879 --- [restartedMain] com.rawchen.BlogApiApplication           : Started BlogApiApplication in 1.483 seconds (JVM running for 74140.658)
+2023-05-15 16:08:32.622  INFO 33879 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-15 17:56:16.215  WARN 33879 --- [HikariPool-7 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=6m43s318ms).
+2023-05-15 18:32:32.148  WARN 33879 --- [HikariPool-7 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=35m45s905ms).
+2023-05-15 18:49:36.997  WARN 33879 --- [HikariPool-7 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=16m34s841ms).
+2023-05-15 19:49:57.836  INFO 33879 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-15 19:49:57.850  INFO 33879 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-15 19:49:57.923  INFO 33879 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 73 ms
+2023-05-15 20:50:43.589  WARN 33879 --- [HikariPool-7 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=32m6s79ms).
+2023-05-15 21:27:35.368  WARN 33879 --- [HikariPool-7 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=33m21s743ms).
+2023-05-15 22:21:11.800  WARN 33879 --- [HikariPool-7 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=34m36s301ms).
+2023-05-15 23:01:31.295  WARN 33879 --- [HikariPool-7 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=31m49s388ms).
+2023-05-15 23:40:05.618  WARN 33879 --- [HikariPool-7 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=37m32s869ms).

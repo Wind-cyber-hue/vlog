@@ -1,0 +1,41 @@
+2023-06-14 00:00:00.133  INFO 35149 --- [quartzScheduler_Worker-1] com.rawchen.util.quartz.ScheduleJob      : 任务准备执行，任务ID：2
+2023-06-14 00:00:00.252 DEBUG 35149 --- [pool-2-thread-1] c.r.m.V.getUUIDAndCreateTimeByYesterday  : ==>  Preparing: select uuid, create_time from visit_log where date(create_time) = date_sub(curdate(), interval 1 day) order by create_time desc
+2023-06-14 00:00:00.257 DEBUG 35149 --- [pool-2-thread-1] c.r.m.V.getUUIDAndCreateTimeByYesterday  : ==> Parameters: 
+2023-06-14 00:00:00.308 DEBUG 35149 --- [pool-2-thread-1] c.r.m.V.getUUIDAndCreateTimeByYesterday  : <==      Total: 2
+2023-06-14 00:00:00.333 DEBUG 35149 --- [pool-2-thread-1] c.r.m.VisitRecordMapper.saveVisitRecord  : ==>  Preparing: insert into visit_record (pv, uv, date) values (?, ?, ?)
+2023-06-14 00:00:00.334 DEBUG 35149 --- [pool-2-thread-1] c.r.m.VisitRecordMapper.saveVisitRecord  : ==> Parameters: 2(Integer), 1(Integer), 06-13(String)
+2023-06-14 00:00:00.359 DEBUG 35149 --- [pool-2-thread-1] c.r.m.VisitRecordMapper.saveVisitRecord  : <==    Updates: 1
+2023-06-14 00:00:00.371 DEBUG 35149 --- [pool-2-thread-1] c.r.m.V.updatePVAndLastTimeByUUID        : ==>  Preparing: update visitor set pv=pv + ?, last_time=? where uuid = ?
+2023-06-14 00:00:00.371 DEBUG 35149 --- [pool-2-thread-1] c.r.m.V.updatePVAndLastTimeByUUID        : ==> Parameters: 2(Integer), 2023-06-13 19:37:42.0(Timestamp), a2d83c0d-7e2b-370a-8a02-e61c43956602(String)
+2023-06-14 00:00:00.387 DEBUG 35149 --- [pool-2-thread-1] c.r.m.V.updatePVAndLastTimeByUUID        : <==    Updates: 1
+2023-06-14 00:00:00.389 DEBUG 35149 --- [pool-2-thread-1] c.r.m.V.getNewVisitorIpSourceByYesterday : ==>  Preparing: select ip_source from visitor where date(create_time) = date_sub(curdate(), interval 1 day)
+2023-06-14 00:00:00.389 DEBUG 35149 --- [pool-2-thread-1] c.r.m.V.getNewVisitorIpSourceByYesterday : ==> Parameters: 
+2023-06-14 00:00:00.390 DEBUG 35149 --- [pool-2-thread-1] c.r.m.V.getNewVisitorIpSourceByYesterday : <==      Total: 0
+2023-06-14 00:00:00.391  INFO 35149 --- [quartzScheduler_Worker-1] com.rawchen.util.quartz.ScheduleJob      : 任务执行成功，任务ID：2，总共耗时：258 毫秒
+2023-06-14 00:00:00.400 DEBUG 35149 --- [quartzScheduler_Worker-1] c.r.m.ScheduleJobLogMapper.saveJobLog    : ==>  Preparing: insert into schedule_job_log (job_id, bean_name, method_name, params, status, error, times, create_time) values (?, ?, ?, ?, ?, ?, ?, ?)
+2023-06-14 00:00:00.406 DEBUG 35149 --- [quartzScheduler_Worker-1] c.r.m.ScheduleJobLogMapper.saveJobLog    : ==> Parameters: 2(Long), visitorSyncScheduleTask(String), syncVisitInfoToDatabase(String), (String), true(Boolean), null, 258(Integer), 2023-06-14 00:00:00.133(Timestamp)
+2023-06-14 00:00:00.416 DEBUG 35149 --- [quartzScheduler_Worker-1] c.r.m.ScheduleJobLogMapper.saveJobLog    : <==    Updates: 1
+2023-06-14 01:00:00.015  INFO 35149 --- [quartzScheduler_Worker-2] com.rawchen.util.quartz.ScheduleJob      : 任务准备执行，任务ID：1
+2023-06-14 01:00:00.074 DEBUG 35149 --- [pool-4-thread-1] c.rawchen.mapper.BlogMapper.updateViews  : ==>  Preparing: update blog set views=? where id = ?
+2023-06-14 01:00:00.075 DEBUG 35149 --- [pool-4-thread-1] c.rawchen.mapper.BlogMapper.updateViews  : ==> Parameters: 140(Integer), 1(Long)
+2023-06-14 01:00:00.082 DEBUG 35149 --- [pool-4-thread-1] c.rawchen.mapper.BlogMapper.updateViews  : <==    Updates: 1
+2023-06-14 01:00:00.085 DEBUG 35149 --- [pool-4-thread-1] c.rawchen.mapper.BlogMapper.updateViews  : ==>  Preparing: update blog set views=? where id = ?
+2023-06-14 01:00:00.085 DEBUG 35149 --- [pool-4-thread-1] c.rawchen.mapper.BlogMapper.updateViews  : ==> Parameters: 9(Integer), 2(Long)
+2023-06-14 01:00:00.085 DEBUG 35149 --- [pool-4-thread-1] c.rawchen.mapper.BlogMapper.updateViews  : <==    Updates: 1
+2023-06-14 01:00:00.086 DEBUG 35149 --- [pool-4-thread-1] c.rawchen.mapper.BlogMapper.updateViews  : ==>  Preparing: update blog set views=? where id = ?
+2023-06-14 01:00:00.088 DEBUG 35149 --- [pool-4-thread-1] c.rawchen.mapper.BlogMapper.updateViews  : ==> Parameters: 5(Integer), 3(Long)
+2023-06-14 01:00:00.089 DEBUG 35149 --- [pool-4-thread-1] c.rawchen.mapper.BlogMapper.updateViews  : <==    Updates: 1
+2023-06-14 01:00:00.092 DEBUG 35149 --- [pool-4-thread-1] c.rawchen.mapper.BlogMapper.updateViews  : ==>  Preparing: update blog set views=? where id = ?
+2023-06-14 01:00:00.092 DEBUG 35149 --- [pool-4-thread-1] c.rawchen.mapper.BlogMapper.updateViews  : ==> Parameters: 3(Integer), 4(Long)
+2023-06-14 01:00:00.094 DEBUG 35149 --- [pool-4-thread-1] c.rawchen.mapper.BlogMapper.updateViews  : <==    Updates: 1
+2023-06-14 01:00:00.096  INFO 35149 --- [quartzScheduler_Worker-2] com.rawchen.util.quartz.ScheduleJob      : 任务执行成功，任务ID：1，总共耗时：80 毫秒
+2023-06-14 01:00:00.097 DEBUG 35149 --- [quartzScheduler_Worker-2] c.r.m.ScheduleJobLogMapper.saveJobLog    : ==>  Preparing: insert into schedule_job_log (job_id, bean_name, method_name, params, status, error, times, create_time) values (?, ?, ?, ?, ?, ?, ?, ?)
+2023-06-14 01:00:00.097 DEBUG 35149 --- [quartzScheduler_Worker-2] c.r.m.ScheduleJobLogMapper.saveJobLog    : ==> Parameters: 1(Long), redisSyncScheduleTask(String), syncBlogViewsToDatabase(String), (String), true(Boolean), null, 80(Integer), 2023-06-14 01:00:00.015(Timestamp)
+2023-06-14 01:00:00.098 DEBUG 35149 --- [quartzScheduler_Worker-2] c.r.m.ScheduleJobLogMapper.saveJobLog    : <==    Updates: 1
+2023-06-14 11:37:02.841  INFO 35149 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-06-14 11:37:03.118  INFO 35149 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-06-14 11:37:03.119  INFO 35149 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-06-14 11:37:03.119  INFO 35149 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-06-14 11:37:03.121  INFO 35149 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-06-14 11:37:03.389  INFO 35149 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-14 11:37:03.397  INFO 35149 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

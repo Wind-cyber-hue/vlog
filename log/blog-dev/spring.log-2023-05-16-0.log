@@ -1,0 +1,59 @@
+2023-05-16 00:54:35.117  WARN 33879 --- [HikariPool-7 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=1h11m29s429ms).
+2023-05-16 10:15:11.994  WARN 33879 --- [HikariPool-7 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=9h20m6s779ms).
+2023-05-16 11:59:43.271  WARN 33879 --- [HikariPool-7 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=9m661ms).
+2023-05-16 12:33:25.421  WARN 33879 --- [HikariPool-7 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=33m11s976ms).
+2023-05-16 12:49:18.834  WARN 33879 --- [HikariPool-7 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=9m23s340ms).
+2023-05-16 12:54:43.189  WARN 33879 --- [HikariPool-7 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=5m24s355ms).
+2023-05-16 13:30:51.897  WARN 33879 --- [HikariPool-7 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=35m38s699ms).
+2023-05-16 14:28:31.806  INFO 33879 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-16 14:28:31.954  INFO 33879 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-05-16 14:28:31.954  INFO 33879 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-05-16 14:28:31.954  INFO 33879 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-16 14:28:31.955  INFO 33879 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-05-16 14:28:32.100  INFO 33879 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2023-05-16 14:28:32.105  INFO 33879 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2023-05-16 14:28:47.922  INFO 28656 --- [restartedMain] com.rawchen.BlogApiApplication           : Starting BlogApiApplication using Java 1.8.0_362 on cms-MacBook-Pro.local with PID 28656 (/Users/cm/Blog/blog-api/target/classes started by cm in /Users/cm/Blog)
+2023-05-16 14:28:47.922 DEBUG 28656 --- [restartedMain] com.rawchen.BlogApiApplication           : Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-05-16 14:28:47.923  INFO 28656 --- [restartedMain] com.rawchen.BlogApiApplication           : The following 1 profile is active: "dev"
+2023-05-16 14:28:47.959  INFO 28656 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-16 14:28:47.960  INFO 28656 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-16 14:28:48.576  INFO 28656 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-16 14:28:48.579  INFO 28656 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-05-16 14:28:48.613  INFO 28656 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2023-05-16 14:28:49.342  INFO 28656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-05-16 14:28:49.348  INFO 28656 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-16 14:28:49.348  INFO 28656 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-16 14:28:49.396  INFO 28656 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-16 14:28:49.397  INFO 28656 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1437 ms
+2023-05-16 14:28:50.270  INFO 28656 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  503 msec using expression: classpath*:UserAgents/**/*.yaml
+2023-05-16 14:28:50.270  INFO 28656 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-05-16 14:28:50.271  INFO 28656 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
+2023-05-16 14:28:50.271  INFO 28656 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
+2023-05-16 14:28:50.271  INFO 28656 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
+2023-05-16 14:28:50.271  INFO 28656 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
+2023-05-16 14:28:50.271  INFO 28656 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
+2023-05-16 14:28:50.272  INFO 28656 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
+2023-05-16 14:28:50.272  INFO 28656 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-05-16 14:28:50.273  INFO 28656 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
+2023-05-16 14:28:50.339  WARN 28656 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'visitLogAspect': Unsatisfied dependency expressed through field 'visitorService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'visitorServiceImpl': Unsatisfied dependency expressed through field 'redisService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisServiceImpl': Unsatisfied dependency expressed through field 'jsonRedisTemplate'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.core.RedisTemplate<?, ?>' available: expected single matching bean but found 2: redisTemplate,stringRedisTemplate
+2023-05-16 14:28:50.341  INFO 28656 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-16 14:28:50.349  INFO 28656 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-16 14:28:50.363 ERROR 28656 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field jsonRedisTemplate in com.rawchen.service.impl.RedisServiceImpl required a single bean, but 2 were found:
+	- redisTemplate: defined by method 'redisTemplate' in class path resource [org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.class]
+	- stringRedisTemplate: defined by method 'stringRedisTemplate' in class path resource [org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+

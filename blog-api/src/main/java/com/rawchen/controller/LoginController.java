@@ -13,10 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @Description: 前台登录
- * @Date: 2020-09-02
- */
+
 @RestController
 public class LoginController {
 	@Autowired

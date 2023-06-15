@@ -39,3 +39,73 @@
 2023-06-14 11:37:03.121  INFO 35149 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
 2023-06-14 11:37:03.389  INFO 35149 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-06-14 11:37:03.397  INFO 35149 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-14 15:55:32.572  INFO 48497 --- [restartedMain] com.rawchen.BlogApiApplication           : Starting BlogApiApplication using Java 1.8.0_362 on cms-MacBook-Pro.local with PID 48497 (/Users/cm/Blog/blog-api/target/classes started by cm in /Users/cm/Blog)
+2023-06-14 15:55:32.573 DEBUG 48497 --- [restartedMain] com.rawchen.BlogApiApplication           : Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-06-14 15:55:32.573  INFO 48497 --- [restartedMain] com.rawchen.BlogApiApplication           : The following 1 profile is active: "dev"
+2023-06-14 15:55:32.633  INFO 48497 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-14 15:55:32.634  INFO 48497 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-14 15:55:33.973  INFO 48497 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-14 15:55:33.977  INFO 48497 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-14 15:55:34.111  INFO 48497 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 0 Redis repository interfaces.
+2023-06-14 15:55:35.824  INFO 48497 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-06-14 15:55:35.843  INFO 48497 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-14 15:55:35.843  INFO 48497 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-06-14 15:55:35.972  INFO 48497 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-14 15:55:35.973  INFO 48497 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3339 ms
+2023-06-14 15:55:37.739  INFO 48497 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : - Loaded 90 files in  998 msec using expression: classpath*:UserAgents/**/*.yaml
+2023-06-14 15:55:37.740  INFO 48497 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-06-14 15:55:37.741  INFO 48497 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : /-----------------------------------------------------------\
+2023-06-14 15:55:37.742  INFO 48497 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Yauaa 5.20 (v5.20 @ 2020-11-22T15:39:16Z)                 |
+2023-06-14 15:55:37.742  INFO 48497 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : +-----------------------------------------------------------+
+2023-06-14 15:55:37.742  INFO 48497 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | For more information: https://yauaa.basjes.nl             |
+2023-06-14 15:55:37.743  INFO 48497 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : | Copyright (C) 2013-2020 Niels Basjes - License Apache 2.0 |
+2023-06-14 15:55:37.743  INFO 48497 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : \-----------------------------------------------------------/
+2023-06-14 15:55:37.743  INFO 48497 --- [restartedMain] n.b.parse.useragent.utils.YauaaVersion   : 
+2023-06-14 15:55:37.747  INFO 48497 --- [restartedMain] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Building all needed matchers for the requested 11 fields.
+2023-06-14 15:55:44.338  INFO 48497 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2023-06-14 15:55:44.351  INFO 48497 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-06-14 15:55:44.352  INFO 48497 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2023-06-14 15:55:44.352  INFO 48497 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2023-06-14 15:55:44.353  INFO 48497 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-06-14 15:55:44.353  INFO 48497 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-06-14 15:55:44.353  INFO 48497 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2023-06-14 15:55:44.353  INFO 48497 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@60a98d08
+2023-06-14 15:55:44.387  INFO 48497 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-14 15:55:44.580  INFO 48497 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-14 15:55:44.589 DEBUG 48497 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : ==>  Preparing: select job_id, bean_name, method_name, params, cron, status, remark, create_time from schedule_job
+2023-06-14 15:55:44.615 DEBUG 48497 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : ==> Parameters: 
+2023-06-14 15:55:44.646 DEBUG 48497 --- [restartedMain] c.r.mapper.ScheduleJobMapper.getJobList  : <==      Total: 2
+2023-06-14 15:55:45.838  INFO 48497 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@622005c5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@757d20a5, org.springframework.security.web.context.SecurityContextPersistenceFilter@2f8afc1, org.springframework.security.web.header.HeaderWriterFilter@28e0f07a, org.springframework.web.filter.CorsFilter@4324c54d, org.springframework.security.web.authentication.logout.LogoutFilter@27e11ac0, com.rawchen.config.JwtLoginFilter@4ce82ab2, com.rawchen.config.JwtFilter@2e8400c7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2150cbd9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@383cbadb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32e075ba, org.springframework.security.web.session.SessionManagementFilter@303f0614, org.springframework.security.web.access.ExceptionTranslationFilter@4a39572, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d2a5b5a]
+2023-06-14 15:55:45.910  INFO 48497 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-14 15:55:45.945  INFO 48497 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-06-14 15:55:45.947  INFO 48497 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-06-14 15:55:45.947  INFO 48497 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-06-14 15:55:45.958  INFO 48497 --- [restartedMain] com.rawchen.BlogApiApplication           : Started BlogApiApplication in 14.028 seconds (JVM running for 19.976)
+2023-06-14 15:55:50.383  INFO 48497 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-14 15:55:50.383  INFO 48497 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-14 15:55:50.384  INFO 48497 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-14 15:55:50.569 DEBUG 48497 --- [http-nio-8090-exec-3] stByLimitNumAndIsPublishedAndIsRecommend : ==>  Preparing: select id, title, password, create_time, first_picture from blog where is_published = true and is_recommend = true order by rand() limit ?
+2023-06-14 15:55:50.570 DEBUG 48497 --- [http-nio-8090-exec-3] stByLimitNumAndIsPublishedAndIsRecommend : ==> Parameters: 5(Integer)
+2023-06-14 15:55:50.581 DEBUG 48497 --- [http-nio-8090-exec-3] stByLimitNumAndIsPublishedAndIsRecommend : <==      Total: 4
+2023-06-14 15:55:50.645 DEBUG 48497 --- [http-nio-8090-exec-4] c.rawchen.mapper.VisitorMapper.hasUUID   : ==>  Preparing: select ifnull((select 1 from visitor where uuid = ? limit 1), 0)
+2023-06-14 15:55:50.645 DEBUG 48497 --- [http-nio-8090-exec-4] c.rawchen.mapper.VisitorMapper.hasUUID   : ==> Parameters: a2d83c0d-7e2b-370a-8a02-e61c43956602(String)
+2023-06-14 15:55:50.655 DEBUG 48497 --- [http-nio-8090-exec-4] c.rawchen.mapper.VisitorMapper.hasUUID   : <==      Total: 1
+2023-06-14 15:55:55.689  INFO 48497 --- [task-1] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Initializing Analyzer data structures
+2023-06-14 15:55:56.561  INFO 48497 --- [task-1] n.b.p.u.AbstractUserAgentAnalyzerDirect  : Built in 871 msec : Hashmap 114881, Ranges map:2900
+2023-06-14 15:55:56.628 DEBUG 48497 --- [task-1] c.r.mapper.VisitLogMapper.saveVisitLog   : ==>  Preparing: insert into visit_log (uuid, uri, method, param, behavior, content, remark, ip, ip_source, os, browser, times, create_time, user_agent) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-06-14 15:55:56.629 DEBUG 48497 --- [task-1] c.r.mapper.VisitLogMapper.saveVisitLog   : ==> Parameters: a2d83c0d-7e2b-370a-8a02-e61c43956602(String), /blogs(String), GET(String), {"pageNum":1}(String), 访问页面(String), 首页(String), 第1页(String), 192.168.112.209(String), 内网IP|内网IP(String), Unknown ??(String), Chrome 114.0.0.0(String), 163(Integer), 2023-06-14 15:55:55.674(Timestamp), Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36(String)
+2023-06-14 15:55:56.635 DEBUG 48497 --- [task-1] c.r.mapper.VisitLogMapper.saveVisitLog   : <==    Updates: 1
+2023-06-14 15:56:02.747  INFO 48497 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-06-14 15:56:03.774  INFO 48497 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-06-14 15:56:03.774  INFO 48497 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-06-14 15:56:03.774  INFO 48497 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-06-14 15:56:03.774  INFO 48497 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-06-14 15:56:03.897  INFO 48497 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-14 15:56:03.905  INFO 48497 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
